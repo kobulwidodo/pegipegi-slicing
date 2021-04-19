@@ -1,0 +1,401 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar {
+    background-color: white !important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    font-size: 18px;
+    color: #000000;
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+    font-weight: 500 !important;
+}
+
+.btn-primary-orange {
+    font-weight: 500 !important;
+    color: white !important;
+    background: #F97432;
+    border-radius: 15px;
+}
+
+.text-orange-link {
+    color: #F97432;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.btn-secondary-light {
+    font-weight: 500 !important;
+    color: #F97432;
+    background: #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 15px;
+}
+
+.shadow-1 {
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.25);
+}
+
+.outline-orange {
+    border: 1px solid #F97432;
+}
+
+.batas-nav {
+    border: 1px solid #cecece;
+    height: 43px !important;
+}
+
+.header {
+    background-color: #F97432;
+}
+
+.carousel-item img {
+    max-width: 750px;
+}
+
+.card-produk {
+    position: relative;
+    z-index: 1;
+    /* margin-left: 155px;
+    margin-right: 155px; */
+    background-color: white;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    box-shadow: 0px 4px 19px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+}
+
+.list-produk .batas-nav {
+    margin-left: 17px;
+    margin-right: 17px;
+}
+
+.list-produk {
+    margin-bottom: 0 !important;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+.card-order {
+    margin-top: -45px;
+    background: white;
+    border-radius: 15px;
+    padding: 80px 90px;
+    box-shadow: 0px 4px 46px rgba(0, 0, 0, 0.25);
+}
+
+.form-label {
+    font-weight: 500;
+    font-size: 18px;
+    color: #4D4D4D;
+}
+
+.input-group {
+    border-radius: 15px;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.25);
+}
+
+.input-group-text {
+    padding: 12px !important;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.form-control {
+    border-radius: 15px;
+}
+
+.brand {
+    margin-top: 60px;
+}
+
+.title-section {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    color: #363636;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.foto-brand {
+    max-height: 81px;
+}
+
+.brand-text-only {
+    max-height: 40px !important;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.why-us {
+    margin-top: 38px !important;
+    margin-bottom: 45px !important;
+}
+
+.card {
+    border: 0 !important;
+}
+
+.card img {
+    margin-right: auto;
+    margin-left: auto;
+    max-height: 203px !important;
+}
+
+.card-title {
+    font-weight: 500 !important;
+    color: #363636 !important;
+    text-align: center !important;
+}
+
+.card-text {
+    color: #866D6D !important;
+    text-align: center;
+}
+
+.card-text-promo {
+    font-weight: 400;
+    font-size: 14px !important;
+    color: #4D4D4D;
+}
+
+.liburan-populer {
+    margin-top: 38px;
+}
+
+.populer img {
+    max-width: 362px !important;
+    max-height: none !important;
+    filter: drop-shadow(0px 1px 15px rgba(0, 0, 0, 0.25));
+    border-radius: 10px;
+}
+
+.rekomendasi {
+    margin-top: 76px;
+    margin-bottom: 70px;
+}
+
+.nav-rekomendasi a {
+    margin: 7px;
+    margin-bottom: 30px;
+}
+
+.card-shadow {
+    border-radius: 15px !important;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.25) !important;
+    margin-right: auto !important;
+    margin-left: auto !important;
+    margin-bottom: 10px;
+}
+
+.card-shadow img {
+    max-height: 181px !important;
+}
+
+.card-shadow .card-body .card-title {
+    font-weight: normal !important;
+    color: #262626 !important;
+    text-align: start !important;
+    font-size: 1.125rem;
+    margin-bottom: 1px !important;
+}
+
+.card-shadow .card-body .card-price {
+    font-weight: 500 !important;
+    font-size: 1.125rem !important;
+    color: #262626;
+    margin-top: 10px !important;
+}
+
+.cek-pesanan {
+    margin-top: 65px;
+    margin-bottom: 35px;
+}
+
+.card-cek-pesanan {
+    padding-top: 18px;
+    padding-bottom: 18px;
+    background-color: #FFA500;
+    border-radius: 15px;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.25);
+}
+
+.card-cek-pesanan p {
+    color: white !important;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: auto !important;
+    margin-bottom: auto !important;
+}
+
+.partner-resmi {
+    padding: 38px;
+    border-top: 1px solid #D2D2D2;
+    border-bottom: 1px solid #D2D2D2;
+    background-color: #F8F8F8;
+}
+
+.item-maskapai {
+    display: flex;
+    justify-content: center;
+    /* text-align: center; */
+}
+
+.item-maskapai img {
+    max-width: 80px;
+    /* margin-right: 50px; */
+}
+
+.item-maskapai .list-kereta {
+    max-height: 100px !important;
+    max-width: none !important;
+    /* margin-right: 140px; */
+}
+
+.gap-15 {
+    gap: 7rem !important;
+}
+
+.tujuan-populer {
+    padding-top: 45px;
+    padding-bottom: 38px;
+}
+
+.text-secondary-1 {
+    color: #866D6D;
+}
+
+.pesawat-deskripsi {
+    padding-top: 38px;
+    padding-bottom: 75px;
+}
+
+.pesawat-deskripsi .text-secondary-1 {
+    text-align: justify;
+}
+
+.how-to-train {
+    margin-top: 47px;
+    margin-bottom: 65px;
+}
+
+.navigasi-promo {
+    margin-top: 30px;
+}
+
+.navigasi-promo .text-secondary-1 {
+    font-size: 18px !important;
+}
+
+.nav-button {
+    margin-top: 30px;
+    margin-bottom: 70px;
+}
+
+.kupon {
+    margin-bottom: 50px;
+}
+
+.harga-spesial {
+    margin-bottom: 50px;
+}
+
+.bank-partner{
+    margin-bottom: 50px;
+}
+
+.card-email {
+    background-color: #FFC1A3;
+    padding: 30px 20px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.25);
+    margin-bottom: -55px;
+}
+
+.text-card-email {
+    font-weight: 500;
+    font-size: 18px;
+    color: #262626;
+}
+
+.subs-input {
+    border-radius: 15px 0px 0px 15px !important;
+}
+
+.btn-subs-input {
+    color: white !important;
+    background-color: #F97432 !important;
+    border-radius: 0px 15px 15px 0px !important;
+}
+
+.footer {
+    position: relative;
+    z-index: -1;
+    background: #F97432;
+    color: #FFFFFF;
+    padding-top: 100px;
+}
+
+.header-footer {
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.line-footer {
+    max-width: 160px;
+    margin-top: 6px;
+    border: 1px solid #FFFFFF;
+    margin-bottom: 20px;
+}
+
+.list-item-footer {
+    padding-left: 0;
+    list-style: none;
+}
+
+.item-footer {
+    margin-bottom: 10px;
+    font-weight: 400;
+    line-height: 21px;
+    font-size: 14px;
+}
+
+.cr-text {
+    text-align: center;
+    padding-bottom: 18px;
+}
+
+@media (max-width: 768px) {
+    .tujuan-populer a {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media (min-width: 768px) {
+    .list-produk .batas-nav {
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .card-produk {
+        margin-left: 155px;
+        margin-right: 155px;
+    }
+}
+
+@media (min-width: 992px) {
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-left: 1.6rem !important;
+        padding-right: 1.6rem !important;
+    }
+}
+

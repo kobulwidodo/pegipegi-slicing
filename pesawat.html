@@ -1,0 +1,375 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/style.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <title>Blank Page</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="assets/img/logo-primary 1.svg" alt="" height="45">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Pesan Tiket</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="promo.html">Promo</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Jadi Patner Kami</a>
+                    </li>
+                    <div class="batas-nav"></div>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Login</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="btn btn-primary-orange nav-link active" href="#">Daftar</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="header">
+        <div class="container">
+            <div class="row">
+                <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="assets/img/carou.png" class="d-block w-100 mx-auto" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="assets/img/carou.png" class="d-block w-100 mx-auto" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="assets/img/carou.png" class="d-block w-100 mx-auto" alt="...">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+
+            <div class="card-produk">
+                <ul class="list-produk d-flex justify-content-center">
+                    <li>
+                        <a href="index.html"><img src="assets/img/Hotel.svg" alt=""></a>
+                    </li>
+                    <div class="batas-nav"></div>
+                    <li>
+                        <a href="pesawat.html"><img src="assets/img/Pesawat-active.svg" alt=""></a>
+                    </li>
+                    <div class="batas-nav"></div>
+                    <li>
+                        <a href="kereta-api.html"><img src="assets/img/Kereta Api.svg" alt=""></a>                
+                    </li>
+                    <div class="batas-nav"></div>
+                    <li>
+                        <a href="bus-travel.html"><img src="assets/img/Bus & Travel.svg" alt=""></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="card-order">
+            <div class="row">
+                <div class="col-md-6 mb-4">
+                    <label for="tujuan" class="form-label">Kota Asal</label>
+                    <div class="input-group">
+                        <div class="input-group-text"><img src="assets/img/fluent_airplane-take-off-24-regular.svg" alt=""></div>
+                        <input type="text" class="form-control" id="tujuan" placeholder="Jakarta (CGK)">
+                    </div>
+                </div>
+                <div class="col-md-6 mb-4">
+                    <label for="tamu" class="form-label">Kota Tujuan</label>
+                    <div class="input-group">
+                        <div class="input-group-text"><img src="assets/img/fluent_airplane-take-off-24-regular-2.svg" alt=""></div>
+                        <input type="text" class="form-control" id="tamu" placeholder="Bali / Denpasar (DPS)">
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 mb-4">
+                    <label for="Check-in" class="form-label">Tanggal Pergi</label>
+                    <div class="input-group">
+                        <div class="input-group-text"><img src="assets/img/fluent_calendar-ltr-24-regular.svg" alt=""></div>
+                        <input type="date" class="form-control" id="Check-in" placeholder="28-01-2021">
+                    </div>
+                </div>
+                <div class="col-md-6 mb-4">
+                    <label for="Check-out" class="form-label">Tanggal Pulang</label>
+                    <div class="input-group">
+                        <div class="input-group-text"><img src="assets/img/fluent_calendar-ltr-24-regular.svg" alt=""></div>
+                        <input type="date" class="form-control" id="Check-out" placeholder="29-01-2021">
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <label for="Check-in" class="form-label">Dewasa</label>
+                    <div class="input-group">
+                        <div class="input-group-text"><img src="assets/img/fluent_person-24-regular.svg" alt=""></div>
+                        <input type="number" class="form-control" id="Check-in" placeholder="1">
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <label for="Check-out" class="form-label">Anak</label>
+                    <div class="input-group">
+                        <div class="input-group-text"><img src="assets/img/fluent_person-24-regular.svg" alt=""></div>
+                        <input type="number" class="form-control" id="Check-out" placeholder="1">
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <label for="Check-out" class="form-label">Bayi</label>
+                    <div class="input-group">
+                        <div class="input-group-text"><img src="assets/img/fluent_person-24-regular.svg" alt=""></div>
+                        <input type="number" class="form-control" id="Check-out" placeholder="1">
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex justify-content-center mt-3">
+                <div class="btn btn-primary-orange btn-lg">Cari Tiket</div>
+            </div>
+        </div>
+        <section class="cek-pesanan">
+            <div class="card-cek-pesanan">
+                <div class="row">
+                    <div class="col-md-6 d-flex justify-content-end">
+                        <p>Cek Detail Pemesanan <b>Tiket Pesawat Anda</b> disini</p>
+                    </div>
+                    <div class="col-md-6 text-center">
+                        <a href="#" class="btn btn-secondary-light shadow-sm border-0 btn-lg">Cek Pesanan</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <hr>
+    <div class="container">
+        <section class="why-us">
+            <div class="title-section">Mengapa Pegipegi</div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 mb-3">
+                    <div class="card">
+                        <img src="assets/img/why_us_1 1.svg" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                Hotel dan tiket pesawat termurah dalam satu tempat
+                            </h5>
+                            <div class="card-text">
+                                Bekerja sama dengan ribuan jaringan hotel dan berbagai pilihan maskapai memberikan Anda harga lebih murah dari harga resmi
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-3">
+                    <div class="card">
+                        <img src="assets/img/why_us_1 2.svg" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                Berbagai pilihan pembayaran untuk setiap kebutuhan
+                            </h5>
+                            <div class="card-text">
+                                Berbagai pilihan pembayaran yang akan memudahkanmu dalam memesan tiket maskapai.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-12 mb-3">
+                    <div class="card">
+                        <img src="assets/img/why_us_2 1.svg" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                Layanan pelanggan terbaik siap membantu setiap langkah Anda
+                            </h5>
+                            <div class="card-text">
+                                Punya pertanyaan seputar hotel dan tiket pesawat, atau ingin menanyakan pesanan Anda? Silakan hubungi Customer Service kami di: 0804 1400 777
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <section class="partner-resmi">
+        <div class="container">
+            <div class="title-section">Partner Resmi Maskapai</div>
+            <div class="row">
+                <div class="col-12 item-maskapai d-flex flex-wrap justify-content-center gap-5">
+                    <img src="assets/img/lionpng.png" class="d-block" alt="">
+                    <img src="assets/img/sriwijaya.svg" class="d-block" alt="">
+                    <img src="assets/img/Citilink.svg" class="d-block" alt="">
+                    <img src="assets/img/nam.svg" class="d-block" alt="">
+                    <img src="assets/img/airasia.svg" class="d-block" alt="">
+                    <img src="assets/img/wingair.svg" class="d-block" alt="">
+                    <img src="assets/img/garuda.svg" class="d-block" alt="">
+                    <img src="assets/img/batik.svg" class="d-block" alt="">
+                </div>
+            </div>
+            <a href="#" class="text-orange-link d-flex justify-content-center mt-5">Selengkapnya</a>
+        </div>
+    </section>
+
+    <div class="container">
+
+        <section class="tujuan-populer">
+            <div class="title-section">Kota Tujuan Populer</div>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div>
+                        <a href="#" class="card-text text-start text-decoration-none">Tiket Pesawat Murah ke Bali</a>
+                    </div>
+                    <div>
+                        <a href="#" class="card-text text-start text-decoration-none">Tiket Pesawat Murah ke Jakarta</a>
+                    </div>
+                    <div>
+                        <a href="#" class="card-text text-start text-decoration-none">Tiket Pesawat Murah ke Surabaya</a>
+                    </div>
+                    <div>
+                        <a href="#" class="card-text text-start text-decoration-none">Tiket Pesawat Murah ke Medan</a>
+                    </div>
+                    <div>
+                        <a href="#" class="card-text text-start text-decoration-none">Tiket Pesawat Murah ke Jogja</a>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div>
+                        <a href="#" class="card-text text-start text-decoration-none">Tiket Pesawat Murah ke Manado</a>
+                    </div>
+                    <div>
+                        <a href="#" class="card-text text-start text-decoration-none">Tiket Pesawat Murah ke Padang</a>
+                    </div>
+                    <div>
+                        <a href="#" class="card-text text-start text-decoration-none">Tiket Pesawat Murah ke Semarang</a>
+                    </div>
+                    <div>
+                        <a href="#" class="card-text text-start text-decoration-none">Tiket Pesawat Murah ke Palembang</a>
+                    </div>
+                    <div>
+                        <a href="#" class="card-text text-start text-decoration-none">Tiket Pesawat Murah ke Balikpapan</a>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div>
+                        <a href="#" class="card-text text-start text-decoration-none">Tiket Pesawat Murah ke Pontianak</a>
+                    </div>
+                    <div>
+                        <a href="#" class="card-text text-start text-decoration-none">Tiket Pesawat Murah ke Makassar</a>                    
+                    </div>
+                    <div>
+                        <a href="#" class="card-text text-start text-decoration-none">Tiket Pesawat Murah ke Lampung</a>
+                    </div>
+                    <div>
+                        <a href="#" class="card-text text-start text-decoration-none">Tiket Pesawat Murah ke Pekanbaru</a>                        
+                    </div>
+                    <div>
+                        <a href="#" class="card-text text-start text-decoration-none">Tiket Pesawat Murah ke Solo</a>                        
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="pesawat-deskripsi">
+            <div class="title-section">Kota Tujuan Populer</div>
+            <div class="text-secondary-1">Anda penat atau bosan? Liburan tentu bisa menjadi solusi tepat untuk mengobatinya. Salah satu caranya adalah Anda berkunjung ke destinasi favorit atau menjelajahi berbagai spot wisata menarik yang ada di Indonesia. Seperti yang Anda tahu, Indonesia memiliki banyak sekali tempat wisata memesona, mulai dari pantai, gunung, hingga pulau-pulau eksotis yang tersebar di penjuru negeri. Belum lagi tempat wisata hits dan kekinian yang sayang jika Anda lewatkan. Berkomitmen sebagai ‘fun traveling partner’ untuk Anda, Pegipegi hadir memberikan kemudahan dalam pemesanan tiket pesawat. Alhasil, destinasi impian pun bisa lebih cepat Anda kunjungi. Nah, bagaimana Pegipegi membantu Anda mendapatkan tiket pesawat dengan mudah plus OK harganya?</div>
+            <a href="#" class="text-orange-link d-flex justify-content-center mt-5">Baca Selengkapnya</a>
+        </section>
+
+        <div class="card-email">
+            <div class="row">
+                <div class="col-md">
+                    <div class="text-card-email">
+                        Daftarkan email Anda sekarang dan nikmati berbagai <br>
+                        <b>PROMO EKSKLUSIF dari Pegipegi!</b>
+                    </div>
+                </div>
+                 <div class="col-md">
+                    <div class="input-group">
+                        <input type="text" class="form-control subs-input" style="height: 54px;" placeholder="Ketik Email Anda Disini!" aria-label="Recipient's username" aria-describedby="button-addon2">
+                        <button class="btn btn-subs-input" type="button" id="button-addon2">Saya Mau</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md">
+                    <div class="header-footer">Tentang Pegipegi</div>
+                    <div class="line-footer"></div>
+                    <ul class="list-item-footer">
+                        <li class="item-footer">Tentang Kami</li>
+                        <li class="item-footer">Karir</li>
+                        <li class="item-footer">Contact Us</li>
+                        <li class="item-footer">Mitra Hotel Login</li>
+                        <li class="item-footer">Daftarkan Hotel Anda</li>
+                    </ul>
+                </div>
+                <div class="col-md">
+                    <div class="header-footer">Bantuan</div>
+                    <div class="line-footer"></div>
+                    <ul class="list-item-footer">
+                        <li class="item-footer">PepePoin Reward</li>
+                        <li class="item-footer">FAQ</li>
+                        <li class="item-footer">Syarat & Ketentuan</li>
+                        <li class="item-footer">Kebijakan Privasi</li>
+                    </ul>
+                </div>
+                <div class="col-md">
+                    <div class="header-footer">Produk</div>
+                    <div class="line-footer"></div>
+                    <ul class="list-item-footer">
+                        <li class="item-footer">Tiket Pesawat</li>
+                        <li class="item-footer">Hotel</li>
+                        <li class="item-footer">Kereta Api</li>
+                        <li class="item-footer">Bus & Travel</li>
+                    </ul>
+                </div>
+                <div class="col-md">
+                    <div class="header-footer">Download App</div>
+                    <div class="line-footer"></div>
+                    <ul class="list-item-footer">
+                        <li class="item-footer"><img src="assets/img/googleplay.svg" alt=""></li>
+                        <li class="item-footer"><img src="assets/img/appstore.svg" alt=""></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="cr-text">
+             2021 All Rights Reserved | PT Go Online Destinations
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+  </body>
+</html>
