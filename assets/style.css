@@ -15,6 +15,11 @@ body {
     font-weight: 500 !important;
 }
 
+.btn a {
+    text-decoration: none;
+    color: inherit !important;
+}
+
 .btn-primary-orange {
     font-weight: 500 !important;
     color: white !important;
@@ -308,15 +313,15 @@ body {
     margin-bottom: 70px;
 }
 
-.kupon {
+#kupon {
     margin-bottom: 50px;
 }
 
-.harga-spesial {
+#harga-spesial {
     margin-bottom: 50px;
 }
 
-.bank-partner{
+#bank-partner{
     margin-bottom: 50px;
 }
 
