@@ -120,6 +120,16 @@ body {
     border-radius: 15px;
 }
 
+.dropdown-toggle {
+    height: 100%;
+    background-color: white;
+    border: 1px solid #ced4da;
+}
+
+.dropdown-toggle .filter-option {
+    height: auto !important;
+}
+
 .brand {
     margin-top: 60px;
 }
