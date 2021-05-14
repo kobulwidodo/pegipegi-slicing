@@ -98,50 +98,58 @@
     </div>
 
     <div class="container">
-        <div class="card-order">
-            <div class="row">
-                <div class="col-md-8 mb-4">
-                    <label for="tujuan" class="form-label">Tujuan</label>
-                    <div class="input-group">
-                        <div class="input-group-text"><img src="assets/img/fluent_location-24-regular.svg" alt=""></div>
-                        <input type="text" class="form-control" id="tujuan" placeholder="Bali, Indonesia">
+        <form action="">
+            <div class="card-order">
+                <div class="row">
+                    <div class="col-md-8 mb-4">
+                        <label for="tujuan" class="form-label">Tujuan</label>
+                        <div class="input-group">
+                            <div class="input-group-text"><img src="assets/img/fluent_location-24-regular.svg" alt=""></div>
+                            <!-- <input type="text" class="form-control" id="tujuan" placeholder="Bali, Indonesia" required> -->
+                            <select class="form-select" aria-label="Default select example">
+                                <option selected>Mau Pergi Kemana?</option>
+                                <option value="1">Bali, Indonesia</option>
+                                <option value="2">Jakarta, Indonesia</option>
+                                <option value="3">Malang, Indonesia</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <label for="tamu" class="form-label">Tamu</label>
+                        <div class="input-group">
+                            <div class="input-group-text"><img src="assets/img/fluent_person-24-regular.svg" alt=""></div>
+                            <input type="text" class="form-control" id="tamu" placeholder="2 Tamu" required>
+                        </div>
                     </div>
                 </div>
-                <div class="col-md-4 mb-4">
-                    <label for="tamu" class="form-label">Tamu</label>
-                    <div class="input-group">
-                        <div class="input-group-text"><img src="assets/img/fluent_person-24-regular.svg" alt=""></div>
-                        <input type="text" class="form-control" id="tamu" placeholder="2 Tamu">
+                <div class="row">
+                    <div class="col-md-4 mb-4">
+                        <label for="Check-in" class="form-label">Check-in</label>
+                        <div class="input-group">
+                            <div class="input-group-text"><img src="assets/img/fluent_calendar-ltr-24-regular.svg" alt=""></div>
+                            <input type="date" class="form-control" id="Check-in" placeholder="28-01-2021" required>
+                        </div>
                     </div>
+                    <div class="col-md-4 mb-4">
+                        <label for="Check-out" class="form-label">Check-out</label>
+                        <div class="input-group">
+                            <div class="input-group-text"><img src="assets/img/fluent_calendar-ltr-24-regular.svg" alt=""></div>
+                            <input type="date" class="form-control" id="Check-out" placeholder="29-01-2021" required>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <label for="Kamar" class="form-label">Kamar</label>
+                        <div class="input-group">
+                            <div class="input-group-text"><img src="assets/img/fluent_conference-room-16-regular.svg" alt=""></div>
+                            <input type="text" class="form-control" id="Kamar" placeholder="1 Kamar" required>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex justify-content-center mt-3">
+                    <button type="submit" class="btn btn-primary-orange btn-lg">Cari Hotel</button>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-md-4 mb-4">
-                    <label for="Check-in" class="form-label">Check-in</label>
-                    <div class="input-group">
-                        <div class="input-group-text"><img src="assets/img/fluent_calendar-ltr-24-regular.svg" alt=""></div>
-                        <input type="date" class="form-control" id="Check-in" placeholder="28-01-2021">
-                    </div>
-                </div>
-                <div class="col-md-4 mb-4">
-                    <label for="Check-out" class="form-label">Check-out</label>
-                    <div class="input-group">
-                        <div class="input-group-text"><img src="assets/img/fluent_calendar-ltr-24-regular.svg" alt=""></div>
-                        <input type="date" class="form-control" id="Check-out" placeholder="29-01-2021">
-                    </div>
-                </div>
-                <div class="col-md-4 mb-4">
-                    <label for="Kamar" class="form-label">Kamar</label>
-                    <div class="input-group">
-                        <div class="input-group-text"><img src="assets/img/fluent_conference-room-16-regular.svg" alt=""></div>
-                        <input type="text" class="form-control" id="Kamar" placeholder="1 Kamar">
-                    </div>
-                </div>
-            </div>
-            <div class="d-flex justify-content-center mt-3">
-                <div class="btn btn-primary-orange btn-lg">Cari Hotel</div>
-            </div>
-        </div>
+        </form>
         <section class="brand">
             <div class="title-section">Brand Hotel Ternama Rekomendasi Pegipegi</div>
             <div class="row">
