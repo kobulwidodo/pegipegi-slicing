@@ -27,6 +27,13 @@ body {
     border-radius: 15px;
 }
 
+.btn-primary-orange:hover {
+    transition: 200ms;
+    color: #F97432 !important;
+    background: white !important;
+    border: 1px solid #F97432;
+}
+
 .text-orange-link {
     color: #F97432;
     text-decoration: none;
@@ -423,6 +430,12 @@ body {
 .cr-text {
     text-align: center;
     padding-bottom: 18px;
+}
+
+.alert-div {
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 @media (max-width: 768px) {

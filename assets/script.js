@@ -13,4 +13,6 @@ $(document).ready(function() {
     $('.nav-rekomendasi button').click(function() {
         $(this).addClass('active-primary').siblings().removeClass('active-primary');
     });
+
+    $('.alert').alert();
 });
